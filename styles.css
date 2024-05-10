@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkedPage {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.linkedPage img {
+    width: 500px;
+    margin-top: 5px;
+}
+
+.linkedPage a {
+    color: white;
+    font-size: 24px;
+}
+
+.header {
+    margin: 15px 5px;
+}
+
+.header .title {
+    font-size: 32px;
+}
+
+.header .subtitle {
+    font-size: 12px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    display: block;
+    border: 3px solid white;
+    padding: 5px 10px;
+    width: 25%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+}
+
+.main > div:first-of-type {
+    width: 70%;
+    padding-top: 75px;
+    text-align: center;
+}
+
+.main > div img {
+    width: 500px;
+    margin-left: 35px;
+}
+
+.sidebar {
+    border-left: 3px solid white;
+}
+
+.sidebar a img {
+    width: 150px;
+    margin: 15px;
+}
+
+.sidebar > div {
+    border-bottom: 3px solid white;
+}
+
+.sidebar > div:last-of-type {
+    border-bottom: none;
+}
+
+.sidebar a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.sidebar a:last-of-type {
+    border-bottom: none;
+}
+
+footer {
+    border-top: 3px solid white;
+}
+
+footer img {
+    margin-top: 150px;
+    width: 150px;
+}
